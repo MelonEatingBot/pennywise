@@ -6,5 +6,5 @@ node_js:
 before_script:
         - yarn --frozen-lockfile
 script: 
-    - yarn start
+    - yarn build
     - yarn test/spec.js
